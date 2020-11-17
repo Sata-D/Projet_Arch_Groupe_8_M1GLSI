@@ -1,0 +1,276 @@
+body{
+    font-family: 'Century Gothic', calibri, serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header{
+    height: 80px;
+}
+
+footer{
+    height: 60px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #C5C5C5;
+    border-top: 2px solid #AAA 
+}
+
+nav {
+    width :100%;
+    background-color: #424558;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu-ind:hover, .collecte{
+    border-top: 5px solid #4C8;
+    background-color: RGBa(64, 200, 130, 0.15);
+}
+
+.menu-osn:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-oml:hover{
+    border-top: 5px solid #0070BB;
+    background-color: RGBa(00, 112, 192, 0.15);
+}
+
+.menu-ogc:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77, 38, 0.15);
+}
+
+.menu-ogb:hover{
+    border-top: 5px solid #5B3;
+    background-color: RGBa(129, 44, 100, 0.15);
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+section {
+    width : 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sec {
+    margin: 0px 10%;
+}
+
+.left {
+    float: left;
+    width: 30%;
+}
+
+.right {
+    float: left;
+    width: 70%;
+}
+
+.rouge {
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228,77,38,0.15);
+    text-align: center;
+}
+
+.orange {
+    border-top: 5px solid #e47d26;
+    background-color: RGBa(228,177,38,0.15);
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#menuDeroulant {
+    width: 644px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menuDeroulant li {
+    float: left;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#menuDeroulant li a:link, #menuDeroulant li a:visited {
+    display: block;
+    height: 1%;
+    color: #FFF;
+    background: #3B4E77;
+    margin: 0;
+    padding: 4px 8px;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+}
+#menuDeroulant li a:hover { background-color: #F2462E; }
+#menuDeroulant li a:active { background-color: #5F879D; }
+
+#menuDeroulant .sousMenu li a:link,
+#menuDeroulant .sousMenu li a:visited {
+    display: block;
+    color: #000000;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    background: transparent url("fondTR.png") repeat;
+}
+#menuDeroulant .sousMenu li a:hover {
+    background-image: none;
+    background-color: #F2462E;
+}
+
+#menuDeroulant .sousMenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 149px;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+#menuDeroulant .sousMenu {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#menuDeroulant li:hover > .sousMenu { display: block; }
+
+table, caption, td, tr, th {
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	}
+table {
+	border-collapse:collapse;
+	margin-bottom:15px;
+	width:90%;
+	}
+
+	caption {
+		text-align:left;
+		font-size:15px;
+		padding-bottom:10px;
+		}
+table td,
+	table th {
+		padding:5px;
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+thead th {
+		background:#91c5d4;
+		}
+
+		thead th[colspan],
+		thead th[rowspan] {
+			background:#66a9bd;
+			}
+
+	tbody th,
+	tfoot th {
+		text-align:left;
+		background:#91c5d4;
+    }
+tbody td,
+	tfoot td {
+		text-align:center;
+		background:#d5eaf0;
+		}
+tfoot th {
+		background:#b0cc7f;
+		}
+
+	tfoot td {
+		background:#d7e1c5;
+		font-weight:bold;
+		}
+table#travel {
+	border-collapse:collapse;
+	margin-bottom:15px;
+	width:90%;
+	}
+
+	table#travel caption {
+		text-align:left;
+		font-size:15px;
+		padding-bottom:10px;
+		}
+
+	table#travel table td,
+	table#travel table th {
+		padding:5px;
+		border:1px solid #fff;
+		border-width:0 1px 1px 0;
+		}
+
+	table#travel thead th {
+		background:#91c5d4;
+		}
+        
+.sec::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
